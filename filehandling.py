@@ -135,7 +135,7 @@ class FileHandler:
             messagebox.showinfo("Success", "All tasks cleared")
             return True
         return False
-    
+   # Silently try to load tasks on startup, don't show error if file doesn't exist  
     def load_on_startup(self):
         # Silently try to load tasks on startup, don't show error if file doesn't exist
         if os.path.exists(self.default_filename):

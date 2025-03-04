@@ -57,7 +57,7 @@ class TaskManagement:
         # Create Remove Task button
         remove_button = tk.Button(
             entry_frame, 
-            text="Remove Task",
+            text="Remove",
             font=("Arial", 10, "bold"),
             bg="#d32f2f",
             fg="white",
