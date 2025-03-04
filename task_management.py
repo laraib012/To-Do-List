@@ -14,7 +14,7 @@ class TaskManagement:
         self.root.resizable(False, False)
         self.root.configure(bg="#f5f5f5")
         
-        # Create header
+        # Create header for to do list
         header_frame = tk.Frame(self.root, bg="#4a6572")
         header_frame.pack(fill=tk.X)
         
