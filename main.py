@@ -11,7 +11,7 @@ def main():
     # Initialize file handler
     file_handler = FileHandler(task_manager, root)
     
-    # Load tasks on startup
+    # Load tasks for startup
     file_handler.load_on_startup()
     
     root.mainloop()
